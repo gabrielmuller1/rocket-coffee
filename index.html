@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RocketCoffee</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 1100px)" srcset="assets/blur-mobile.png">
+        <img src="assets/blur-1.png" alt="blur 1" class="blur1">
+    </picture>
+    <img src="assets/blur-2.png" alt="blur 2" class="blur2">
+
+    <div class="content">
+        <header>
+            <a href="#">
+                <picture>
+                    <source media="(max-width: 700px)" srcset="assets/logo-mobile.svg">
+                    <img src="assets/logo-desktop.svg" alt="logo" id="logo">
+                </picture>
+            </a>
+    
+            <nav id="menu">
+                <ul>
+                    <li class="list-item"><a href="#" class="item" id="item1">Home</a></li>
+                    <li class="list-item"><a href="#" class="item" id="item2">Menu</a></li>
+                    <li class="list-item"><a href="#" class="item" id="item3">Recompensas</a></li>
+                    <li class="list-item"><a href="#" class="item" id="item4">Gift Cards</a></li>
+                    <li class="list-item"><a href="#" class="item" id="item5">Lojas</a></li>
+                </ul>
+            </nav>
+    
+            <button>Pegar meu café</button>
+
+            <img src="assets/menu-buguer-open.svg" alt="menu open icon" id="menuToggle">
+        </header>
+
+        <main>
+            <section class="hero">
+                <p>O café que fará seu código decolar para 
+                o próximo nível.</p>
+                <button>
+                    Pegar meu café
+                    <img src="assets/arrow.svg" alt="arrow icon">
+                </button>
+            </section>
+            
+            <section class="main-text">
+                <h1>Great Coffee</h1>
+                <h2>&ltGreat Code/&gt</h2>
+            </section>
+            <img src="assets/coffee.svg" alt="coffee image">
+        </main>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
